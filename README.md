@@ -1,6 +1,14 @@
-# Spotty: Spotify Analytics Dashboard
+# Spotify: Spotify Analytics Dashboard
 
-Spotty is a Streamlit-based dashboard application that provides insightful analytics on a user's Spotify listening habits. It visualizes data such as top played songs, artist diversity, track popularity, and listening patterns, offering users a deeper understanding of their music preferences.
+
+## Live Demo
+
+Check out the live demo of Spotify here: [Spotify Live Demo](https://hannahlee.streamlit.app/)
+
+![alt text](<preview.png>)
+
+## Description
+Spotify is a Streamlit-based dashboard application that provides insightful analytics on a user's Spotify listening habits. It visualizes data such as top played songs, artist diversity, track popularity, and listening patterns, offering users a deeper understanding of their music preferences.
 
 ## Features
 
@@ -12,11 +20,11 @@ Spotty is a Streamlit-based dashboard application that provides insightful analy
 
 ## How It Works
 
-Spotty uses local CSV files or Spotify's API to fetch and analyze your listening data. The dashboard is built with Streamlit, making it interactive and easy to use.
+Spotify uses local CSV files or Spotify's API to fetch and analyze your listening data. The dashboard is built with Streamlit, making it interactive and easy to use.
 
 ### Data Sources
-- **Local CSV Files**: Spotty can load data from pre-exported CSV files, such as `top_tracks_medium_term.csv`.
-- **Spotify API**: For advanced users, Spotty can connect to Spotify's API to fetch real-time data (requires authentication).
+- **Local CSV Files**: Spotify can load data from pre-exported CSV files, such as `top_tracks_medium_term.csv`.
+- **Spotify API**: For advanced users, Spotify can connect to Spotify's API to fetch real-time data (requires authentication).
 
 ## Installation
 
@@ -41,6 +49,7 @@ Spotty uses local CSV files or Spotify's API to fetch and analyze your listening
 - **Local CSV Mode**: Place your CSV files in the `src/data/` directory and run the app to visualize your data.
 - **Spotify API Mode**: Authenticate with Spotify to fetch your top tracks and listening history directly from your account.
 
+
 ## File Structure
 
 - `src/main.py`: Main entry point for the dashboard.
@@ -49,7 +58,7 @@ Spotty uses local CSV files or Spotify's API to fetch and analyze your listening
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve Spotty.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve Spotify.
 
 ## License
 

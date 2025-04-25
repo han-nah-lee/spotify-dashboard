@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Spotty: Spotify Listening Analytics Dashboard (Local CSV Version)
+Spotify: Spotify Listening Analytics Dashboard (Local CSV Version)
 This Streamlit app visualizes a user's Spotify listening history from local CSV files.
 """
 
@@ -18,7 +18,7 @@ from utils.artist_analysis import get_top_artists_from_tracks
 
 # Set page configuration
 st.set_page_config(
-    page_title="Spotty - Spotify Analytics",
+    page_title="Spotify - Spotify Analytics",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
